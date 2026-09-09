@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 360" width="1200" height="360">
+<defs>
+  <radialGradient id="halo" cx="50%" cy="60%" r="60%">
+    <stop offset="0%" stop-color="#00ff41" stop-opacity=".20"/>
+    <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#00ff41" stop-opacity=".14"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="floor"><rect x="0" y="212" width="1200" height="148"/></clipPath>
+  <line id="ray" x1="600" y1="212" x2="600" y2="1612" stroke="#00ff41" stroke-width="1.1" opacity=".34"/>
+</defs>
+
+<rect width="1200" height="360" fill="#000000"/>
+<rect width="1200" height="360" fill="url(#halo)"/>
+<rect x="0" y="212" width="1200" height="148" fill="url(#deck)"/>
+
+<g clip-path="url(#floor)">
+  <use xlink:href="#ray" href="#ray" transform="rotate(-78 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-70 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-62 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-54 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-46 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-38 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-30 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-22 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-14 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(-6 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(6 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(14 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(22 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(30 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(38 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(46 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(54 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(62 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(70 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(78 600 212)"/>
+  <use xlink:href="#ray" href="#ray" transform="rotate(0 600 212)"/>
+
+  <line x1="0" x2="1200" stroke="#00ff41">
+    <animate attributeName="y1" dur="4.8s" begin="0s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="y2" dur="4.8s" begin="0s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="stroke-opacity" dur="4.8s" begin="0s" repeatCount="indefinite" values="0;.3;.6;.9;1"/>
+    <animate attributeName="stroke-width" dur="4.8s" begin="0s" repeatCount="indefinite" values=".4;.8;1.4;2;2.6"/>
+  </line>
+  <line x1="0" x2="1200" stroke="#00ff41">
+    <animate attributeName="y1" dur="4.8s" begin="-0.8s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="y2" dur="4.8s" begin="-0.8s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="stroke-opacity" dur="4.8s" begin="-0.8s" repeatCount="indefinite" values="0;.3;.6;.9;1"/>
+    <animate attributeName="stroke-width" dur="4.8s" begin="-0.8s" repeatCount="indefinite" values=".4;.8;1.4;2;2.6"/>
+  </line>
+  <line x1="0" x2="1200" stroke="#00ff41">
+    <animate attributeName="y1" dur="4.8s" begin="-1.6s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="y2" dur="4.8s" begin="-1.6s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="stroke-opacity" dur="4.8s" begin="-1.6s" repeatCount="indefinite" values="0;.3;.6;.9;1"/>
+    <animate attributeName="stroke-width" dur="4.8s" begin="-1.6s" repeatCount="indefinite" values=".4;.8;1.4;2;2.6"/>
+  </line>
+  <line x1="0" x2="1200" stroke="#00ff41">
+    <animate attributeName="y1" dur="4.8s" begin="-2.4s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="y2" dur="4.8s" begin="-2.4s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="stroke-opacity" dur="4.8s" begin="-2.4s" repeatCount="indefinite" values="0;.3;.6;.9;1"/>
+    <animate attributeName="stroke-width" dur="4.8s" begin="-2.4s" repeatCount="indefinite" values=".4;.8;1.4;2;2.6"/>
+  </line>
+  <line x1="0" x2="1200" stroke="#00ff41">
+    <animate attributeName="y1" dur="4.8s" begin="-3.2s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="y2" dur="4.8s" begin="-3.2s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="stroke-opacity" dur="4.8s" begin="-3.2s" repeatCount="indefinite" values="0;.3;.6;.9;1"/>
+    <animate attributeName="stroke-width" dur="4.8s" begin="-3.2s" repeatCount="indefinite" values=".4;.8;1.4;2;2.6"/>
+  </line>
+  <line x1="0" x2="1200" stroke="#00ff41">
+    <animate attributeName="y1" dur="4.8s" begin="-4s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="y2" dur="4.8s" begin="-4s" repeatCount="indefinite" keyTimes="0;.25;.5;.75;1" values="212;215.4;233.5;279.2;360"/>
+    <animate attributeName="stroke-opacity" dur="4.8s" begin="-4s" repeatCount="indefinite" values="0;.3;.6;.9;1"/>
+    <animate attributeName="stroke-width" dur="4.8s" begin="-4s" repeatCount="indefinite" values=".4;.8;1.4;2;2.6"/>
+  </line>
+</g>
+
+<line x1="0" y1="212" x2="1200" y2="212" stroke="#00ff41" stroke-width="1.6" opacity=".9"/>
+<rect x="0" y="205" width="1200" height="14" fill="#00ff41" opacity=".10"/>
+
+<g font-family="'Courier New',monospace" font-size="84" font-weight="bold" letter-spacing="14" text-anchor="middle">
+  <text x="613" y="163" fill="#001a06">NUKLASO</text>
+  <text x="611.8" y="161.8" fill="#002810">NUKLASO</text>
+  <text x="610.6" y="160.6" fill="#003b12">NUKLASO</text>
+  <text x="609.4" y="159.4" fill="#004d18">NUKLASO</text>
+  <text x="608.2" y="158.2" fill="#00611e">NUKLASO</text>
+  <text x="607" y="157" fill="#007a26">NUKLASO</text>
+  <text x="605.8" y="155.8" fill="#00932e">NUKLASO</text>
+  <text x="604.6" y="154.6" fill="#00a836">NUKLASO</text>
+  <text x="603.4" y="153.4" fill="#00c23a">NUKLASO</text>
+  <text x="602.2" y="152.2" fill="#00d93e">NUKLASO</text>
+  <text y="150" fill="#00ffd5" opacity=".45">
+    <animate attributeName="x" dur="3.3s" repeatCount="indefinite" values="600;603;598;601;599;600"/>
+    NUKLASO
+  </text>
+  <text y="150" fill="#ff2e63" opacity=".30">
+    <animate attributeName="x" dur="2.7s" repeatCount="indefinite" values="600;597;602;599;601;600"/>
+    NUKLASO
+  </text>
+  <text x="600" y="150" fill="#00ff41">NUKLASO
+    <animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="1;.86;1;.94;1"/>
+  </text>
+</g>
+
+<text x="600" y="196" text-anchor="middle" font-family="'Courier New',monospace" font-size="15" letter-spacing="6.5" fill="#00ff41" opacity=".8">
+  WEB ENGINEER &#160;//&#160; SYSTEMS PROGRAMMER &#160;//&#160; OS ARCHITECT
+  <animate attributeName="opacity" dur="4s" repeatCount="indefinite" values=".55;.9;.55"/>
+</text>
+
+<g opacity=".16">
+  <rect y="0" width="1200" height="2" fill="#00ff41"/>
+  <animateTransform attributeName="transform" type="translate" values="0,-10;0,370" dur="4.2s" repeatCount="indefinite"/>
+</g>
+</svg>
