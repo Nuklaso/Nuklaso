@@ -1,25 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220">
-  <defs>
-    <filter id="wave">
-      <feTurbulence type="fractalNoise" baseFrequency="0.010 0.028" numOctaves="2" seed="7" result="n">
-        <animate attributeName="baseFrequency" dur="8s"
-                 values="0.010 0.028;0.016 0.048;0.010 0.028" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feDisplacementMap in="SourceGraphic" in2="n" scale="20"
-                         xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
-    <linearGradient id="shine" x1="-1" y1="0" x2="0" y2="0">
-      <stop offset="0%"   stop-color="#000" stop-opacity="0.35"/>
-      <stop offset="50%"  stop-color="#fff" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#000" stop-opacity="0.35"/>
-      <animate attributeName="x1" dur="4s" values="-1;1"  repeatCount="indefinite"/>
-      <animate attributeName="x2" dur="4s" values="0;2"   repeatCount="indefinite"/>
-    </linearGradient>
-  </defs>
-  <g filter="url(#wave)">
-    <rect width="360" height="73.3" y="0"     fill="#000000"/>
-    <rect width="360" height="73.3" y="73.3"  fill="#DD0000"/>
-    <rect width="360" height="73.4" y="146.6" fill="#FFCE00"/>
-    <rect width="360" height="220"  fill="url(#shine)"/>
-  </g>
-</svg>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:000000,50:DD0000,100:FFCE00&text=REGENSBURG&fontColor=ffffff&fontSize=68&fontAlignY=38&animation=fadeIn&stroke=000000&strokeWidth=2" width="100%"/>
+
+<img src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/main/flag.svg" width="280"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=32&duration=2200&pause=600&color=FFCE00&center=true&vCenter=true&width=720&lines=%F0%9F%93%8D+Regensburg%2C+Bayern;Deutschland+%F0%9F%87%A9%F0%9F%87%AA;UNESCO+Welterbe+seit+2006;Steinerne+Br%C3%BCcke+%7C+Est.+1146"/>
+
+<img src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/main/flag.svg" width="280"/>
+
+![](https://komarev.com/ghpvc/?username=Nuklaso&style=for-the-badge&color=DD0000)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:FFCE00,50:DD0000,100:000000"/>
+
+</div>
+
