@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/main/matrix.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/main/hero.svg" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=VT323&size=34&duration=2600&pause=700&color=00FF41&background=00000000&center=true&vCenter=true&width=900&height=52&lines=root%40nuklaso%3A~%23+wake+up...;root%40nuklaso%3A~%23+the+stack+has+you.;root%40nuklaso%3A~%23+follow+the+white+rabbit.;root%40nuklaso%3A~%23+._"/>
+<img src="https://readme-typing-svg.demolab.com?font=VT323&size=32&duration=2600&pause=700&color=00FF41&background=00000000&center=true&vCenter=true&width=900&height=50&lines=root%40nuklaso%3A~%23+wake+up...;root%40nuklaso%3A~%23+the+stack+has+you.;root%40nuklaso%3A~%23+i+build+at+both+ends+of+it.;root%40nuklaso%3A~%23+._"/>
 
-`ｱ 0 ﾂ 1 ﾈ 0 ﾏ 1 ｻ 0 ﾑ 1 ｷ 0 ﾈ 1 ﾀ 0 ｼ 1 ﾐ 0 ｹ 1 ﾂ 0 ｶ 1 ﾇ 0 ﾏ 1 ｵ`
+<img src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/main/orbit.svg" width="100%"/>
 
 </div>
 
@@ -13,24 +13,19 @@
 ```console
 [    0.000000] nuklaso boot loader v3.0 — handing control to profile kernel
 [    0.000412] probing operator .................................. [  OK  ]
-[    0.001183] mounting /dev/web        frontend + backend + full-stack  [  OK  ]
-[    0.002047] mounting /dev/systems    kernel · memory · scheduler      [  OK  ]
-[    0.003390] loading module  typescript.ko ..................... [  OK  ]
-[    0.003911] loading module  rust.ko .......................... [  OK  ]
-[    0.004502] loading module  c.ko ............................. [  OK  ]
-[    0.005166] loading module  x86_64_asm.ko .................... [  OK  ]
-[    0.006774] enabling long mode  ·  paging  ·  APIC ........... [  OK  ]
-[    0.008230] spawning scheduler  pid 1 ........................ [  OK  ]
-[    0.011905] flagship process  [OS_PROJECT_NAME]  status ...... [ ACTIVE ]
-[    0.014338] caffeine subsystem  saturation 100% .............. [  OK  ]
-[    0.017001] reality.sys  ....................................  [ FAILED ]
-[    0.017002]   └─ falling back to  terminal.sys ............... [  OK  ]
+[    0.001183] mounting /dev/web      frontend · backend · full-stack    [  OK  ]
+[    0.002047] mounting /dev/systems  kernel · memory · scheduler        [  OK  ]
+[    0.003911] loading  typescript.ko  rust.ko  c.ko  x86_64_asm.ko ... [  OK  ]
+[    0.006774] enabling long mode · paging · APIC ................ [  OK  ]
+[    0.008230] spawning scheduler  pid 1 ......................... [  OK  ]
+[    0.011905] flagship process  [OS_PROJECT_NAME] ............... [ ACTIVE ]
+[    0.017001] reality.sys ....................................... [ FAILED ]
+[    0.017002]   └─ falling back to terminal.sys ................. [  OK  ]
 
 nuklaso login: root
 Password: ************
 
   Welcome to the real stack.
-  Last login: today — from 127.0.0.1 on tty0
 ```
 
 ## `▌ 02 — WHOAMI`
@@ -56,11 +51,7 @@ root@nuklaso:~# neofetch
 
 root@nuklaso:~# cat /proc/self/mission
 "Own the whole stack. From the page table to the pixel."
-
-root@nuklaso:~# _
 ```
-
-## `▌ 03 — ABOUT`
 
 > **Most engineers pick one layer of the stack and live there for a career.**
 > I refuse to. By day I ship production web systems that real users hit.
@@ -70,7 +61,7 @@ root@nuklaso:~# _
 <tr>
 <td width="50%" valign="top">
 
-**`/dev/web` — the top of the stack**
+**`/dev/web` — the top**
 
 ```diff
 + professional, actively shipping full-stack dev
@@ -83,7 +74,7 @@ root@nuklaso:~# _
 </td>
 <td width="50%" valign="top">
 
-**`/dev/systems` — the bottom of the stack**
+**`/dev/systems` — the bottom**
 
 ```diff
 + [OS_PROJECT_NAME] — full OS, written from zero
@@ -97,153 +88,13 @@ root@nuklaso:~# _
 </tr>
 </table>
 
-```console
-root@nuklaso:~# ./operating-range --scan
-
-   LAYER                                     DEPTH                  SCORE
-   ───────────────────────────────────────────────────────────────────────
-   L7  ui / ux / design systems ......  ███████████████████░   95
-   L6  frontend frameworks & state ...  ██████████████████░░   94
-   L5  apis · services · auth .........  ██████████████████░░   90
-   L4  databases · cache · queues .....  █████████████████░░░   86
-   L3  containers · ci/cd · infra .....  ████████████████░░░░   83
-   L2  compilers · linkers · toolchain.  ███████████████░░░░░   78
-   L1  KERNEL · MEM · SCHED · DRIVERS .  ████████████████░░░░   82   ◀◀
-   L0  bootloader · bare metal · silicon ███████████████░░░░░   75   ◀◀
-   ───────────────────────────────────────────────────────────────────────
-   note: most operators occupy 2–3 rows.  ◀◀ marks where nobody follows.
-```
-
-## `▌ 04 — STACK`
+## `▌ 03 — OPERATING RANGE`
 
 <div align="center">
-
-`root@nuklaso:~# ls -la /dev/stack`
-
-**LANGUAGES**
-
-<img src="https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/C++-000000?style=flat-square&logo=cplusplus&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/x86__64_ASM-000000?style=flat-square&logo=gnu&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Go-000000?style=flat-square&logo=go&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Bash-000000?style=flat-square&logo=gnubash&logoColor=00ff41&labelColor=000000&color=003b12"/>
-
-**FRONTEND**
-
-<img src="https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Svelte-000000?style=flat-square&logo=svelte&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Vue-000000?style=flat-square&logo=vuedotjs&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Tailwind-000000?style=flat-square&logo=tailwindcss&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/WebAssembly-000000?style=flat-square&logo=webassembly&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Vite-000000?style=flat-square&logo=vite&logoColor=00ff41&labelColor=000000&color=003b12"/>
-
-**BACKEND**
-
-<img src="https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=nodedotjs&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Deno-000000?style=flat-square&logo=deno&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/NestJS-000000?style=flat-square&logo=nestjs&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/GraphQL-000000?style=flat-square&logo=graphql&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/tRPC-000000?style=flat-square&logo=trpc&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Prisma-000000?style=flat-square&logo=prisma&logoColor=00ff41&labelColor=000000&color=003b12"/>
-
-**RING 0 — SYSTEMS TOOLCHAIN**
-
-<img src="https://img.shields.io/badge/QEMU-000000?style=flat-square&logo=qemu&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/GDB-000000?style=flat-square&logo=gnu&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/NASM-000000?style=flat-square&logo=gnu&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/UEFI-000000?style=flat-square&logo=uefi&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/LLVM-000000?style=flat-square&logo=llvm&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/GCC_cross-000000?style=flat-square&logo=gnu&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Limine-000000?style=flat-square&logo=gnubash&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/no__std-000000?style=flat-square&logo=rust&logoColor=00ff41&labelColor=000000&color=003b12"/>
-
-**INFRA & DATA**
-
-<img src="https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Kubernetes-000000?style=flat-square&logo=kubernetes&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Terraform-000000?style=flat-square&logo=terraform&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Actions-000000?style=flat-square&logo=githubactions&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=00ff41&labelColor=000000&color=003b12"/>
-<img src="https://img.shields.io/badge/ClickHouse-000000?style=flat-square&logo=clickhouse&logoColor=00ff41&labelColor=000000&color=003b12"/>
-
+<img src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/main/stack3d.svg" width="100%"/>
 </div>
 
-## `▌ 05 — PAYLOADS`
-
-```console
-root@nuklaso:~# ./loadout --arm --all
-
-  decrypting arsenal  [████████████████████████████████████]  8/8  ARMED
-
-  ID     PAYLOAD            CLASS        VECTOR                    IMPACT
-  ─────  ─────────────────  ───────────  ────────────────────────  ────────
-  P-01   kernel-forge       SYSTEMS      bare-metal / x86_64       CRITICAL
-  P-02   ghost-deploy       DEPLOYMENT   blue-green · autorollback HIGH
-  P-03   recon-crawler      RECON        headless · distributed    MEDIUM
-  P-04   hydra-scaffold     AUTOMATION   schema → full-stack       HIGH
-  P-05   blackbox-audit     SECURITY     cve · secrets · headers   CRITICAL
-  P-06   lighthouse-siege   PERFORMANCE  core-web-vitals gate      MEDIUM
-  P-07   schema-shift       DATA         live zero-loss migration  HIGH
-  P-08   dead-drop          INFRA        encrypted secret sync     CRITICAL
-
-  all payloads armed. deploy at will.
-```
-
-<table>
-<tr><th align="left" width="19%">PAYLOAD</th><th align="left" width="47%">PURPOSE</th><th align="left" width="22%">VECTOR</th><th align="center" width="12%"></th></tr>
-
-<tr><td valign="top"><code>kernel-forge</code><br/><sub>🔴 CRITICAL</sub></td>
-<td valign="top">One-command bare-metal pipeline. Bootstraps the cross-compiler, assembles linker scripts, builds a bootable ISO, launches QEMU and attaches GDB. A 40-minute OS-dev ritual reduced to <code>make run</code>.</td>
-<td valign="top"><code>C</code> <code>ASM</code> <code>Make</code> <code>QEMU</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-<tr><td valign="top"><code>ghost-deploy</code><br/><sub>🟠 HIGH</sub></td>
-<td valign="top">Zero-downtime deployment chain — atomic blue/green swap, health-probe gating, auto-rollback on 5xx spike, strike report to Slack. Ships to prod without dropping a single connection.</td>
-<td valign="top"><code>Docker</code> <code>Actions</code> <code>Bash</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-<tr><td valign="top"><code>recon-crawler</code><br/><sub>🟡 MEDIUM</sub></td>
-<td valign="top">Distributed headless recon engine. Fingerprints target stacks, maps public surface area, diffs it over time, exports structured intel. Rate-limit aware, proxy-rotating, politely relentless.</td>
-<td valign="top"><code>TypeScript</code> <code>Playwright</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-<tr><td valign="top"><code>hydra-scaffold</code><br/><sub>🟠 HIGH</sub></td>
-<td valign="top">Schema in — typed API, client SDK, migrations, auth and admin panel out. Cut off one endpoint and two more generate in its place.</td>
-<td valign="top"><code>Node</code> <code>Prisma</code> <code>tRPC</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-<tr><td valign="top"><code>blackbox-audit</code><br/><sub>🔴 CRITICAL</sub></td>
-<td valign="top">Pre-merge security sweep — dependency CVEs, leaked secrets, CSP/HSTS verification, supply-chain integrity. Fails the build before an attacker finds it first.</td>
-<td valign="top"><code>Python</code> <code>Trivy</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-<tr><td valign="top"><code>lighthouse-siege</code><br/><sub>🟡 MEDIUM</sub></td>
-<td valign="top">Performance regression gate. Hammers every PR preview with synthetic load, tracks Core Web Vitals over time, blocks any commit that makes the product slower.</td>
-<td valign="top"><code>Lighthouse</code> <code>k6</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-<tr><td valign="top"><code>schema-shift</code><br/><sub>🟠 HIGH</sub></td>
-<td valign="top">Live migration payload — shadow writes, dual-read verification, instant reverse. Reshapes production data while it is still serving traffic.</td>
-<td valign="top"><code>PostgreSQL</code> <code>Go</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-<tr><td valign="top"><code>dead-drop</code><br/><sub>🔴 CRITICAL</sub></td>
-<td valign="top">Encrypted secret distribution — age-encrypted at rest, short-lived tokens in flight, full audit trail. Secrets that exist only exactly when and where they are needed.</td>
-<td valign="top"><code>Rust</code> <code>Terraform</code></td>
-<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶_RUN-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
-
-</table>
-
-## `▌ 06 — PORTFOLIO`
+## `▌ 04 — FLAGSHIP`
 
 ```console
 root@nuklaso:~# systemctl status [OS_PROJECT_NAME]
@@ -252,7 +103,7 @@ root@nuklaso:~# systemctl status [OS_PROJECT_NAME]
      Loaded: loaded (/src/kernel; enabled)
      Active: ● active (building)  since [START_DATE]
    Language: C · x86_64 Assembly · Rust
-     Target: x86_64-unknown-none  ·  UEFI  ·  QEMU + real hardware
+     Target: x86_64-unknown-none · UEFI · QEMU + real hardware
 
    SUBSYSTEM        IMPLEMENTATION                          PROGRESS
    ───────────────  ─────────────────────────────────────   ──────────────────
@@ -270,14 +121,66 @@ root@nuklaso:~# systemctl status [OS_PROJECT_NAME]
 ```
 
 <div align="center">
-
 <a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/SOURCE-000000?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=003b12"/></a>
 <a href="[DEMO_LINK]"><img src="https://img.shields.io/badge/BOOT_DEMO-000000?style=for-the-badge&logo=qemu&logoColor=00ff41&labelColor=000000&color=003b12"/></a>
 <a href="[DOCS_LINK]"><img src="https://img.shields.io/badge/DEV_LOG-000000?style=for-the-badge&logo=readthedocs&logoColor=00ff41&labelColor=000000&color=003b12"/></a>
+</div>
 
-<br/><br/>
+## `▌ 05 — PAYLOADS`
 
-`root@nuklaso:~# ls ~/shipped`
+```console
+root@nuklaso:~# ./loadout --arm --all
+
+  decrypting arsenal  [████████████████████████████████████]  6/6  ARMED
+
+  ID     PAYLOAD            CLASS        VECTOR                    IMPACT
+  ─────  ─────────────────  ───────────  ────────────────────────  ────────
+  P-01   kernel-forge       SYSTEMS      bare-metal / x86_64       CRITICAL
+  P-02   ghost-deploy       DEPLOYMENT   blue-green · autorollback HIGH
+  P-03   recon-crawler      RECON        headless · distributed    MEDIUM
+  P-04   hydra-scaffold     AUTOMATION   schema → full-stack       HIGH
+  P-05   blackbox-audit     SECURITY     cve · secrets · headers   CRITICAL
+  P-06   dead-drop          INFRA        encrypted secret sync     CRITICAL
+```
+
+<table>
+<tr><th align="left" width="19%">PAYLOAD</th><th align="left" width="49%">PURPOSE</th><th align="left" width="20%">VECTOR</th><th align="center" width="12%"></th></tr>
+
+<tr><td valign="top"><code>kernel-forge</code><br/><sub>🔴 CRITICAL</sub></td>
+<td valign="top">One-command bare-metal pipeline. Bootstraps the cross-compiler, assembles linker scripts, builds a bootable ISO, launches QEMU and attaches GDB. A 40-minute OS-dev ritual reduced to <code>make run</code>.</td>
+<td valign="top"><code>C</code> <code>ASM</code> <code>QEMU</code></td>
+<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
+
+<tr><td valign="top"><code>ghost-deploy</code><br/><sub>🟠 HIGH</sub></td>
+<td valign="top">Zero-downtime deployment chain — atomic blue/green swap, health-probe gating, auto-rollback on 5xx spike. Ships to prod without dropping a single connection.</td>
+<td valign="top"><code>Docker</code> <code>Actions</code></td>
+<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
+
+<tr><td valign="top"><code>recon-crawler</code><br/><sub>🟡 MEDIUM</sub></td>
+<td valign="top">Distributed headless recon engine. Fingerprints target stacks, maps public surface area, diffs it over time, exports structured intel. Rate-limit aware, politely relentless.</td>
+<td valign="top"><code>TS</code> <code>Playwright</code></td>
+<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
+
+<tr><td valign="top"><code>hydra-scaffold</code><br/><sub>🟠 HIGH</sub></td>
+<td valign="top">Schema in — typed API, client SDK, migrations, auth and admin panel out. Cut off one endpoint and two more generate in its place.</td>
+<td valign="top"><code>Node</code> <code>Prisma</code> <code>tRPC</code></td>
+<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
+
+<tr><td valign="top"><code>blackbox-audit</code><br/><sub>🔴 CRITICAL</sub></td>
+<td valign="top">Pre-merge security sweep — dependency CVEs, leaked secrets, CSP/HSTS verification, supply-chain integrity. Fails the build before an attacker finds it first.</td>
+<td valign="top"><code>Python</code> <code>Trivy</code></td>
+<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
+
+<tr><td valign="top"><code>dead-drop</code><br/><sub>🔴 CRITICAL</sub></td>
+<td valign="top">Encrypted secret distribution — age-encrypted at rest, short-lived tokens in flight, full audit trail. Secrets that exist only exactly when and where they are needed.</td>
+<td valign="top"><code>Rust</code> <code>Terraform</code></td>
+<td align="center" valign="top"><a href="[PROJECT_LINK]"><img src="https://img.shields.io/badge/▶-000000?style=flat-square&labelColor=000000&color=00ff41"/></a></td></tr>
+
+</table>
+
+## `▌ 06 — SHIPPED`
+
+<div align="center">
 
 <a href="[PROJECT_LINK]"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Nuklaso&repo=[REPO_NAME_1]&bg_color=000000&title_color=00ff41&icon_color=00ff41&text_color=00b32d&border_color=00ff41&border_radius=4" width="49%"/></a>
 <a href="[PROJECT_LINK]"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Nuklaso&repo=[REPO_NAME_2]&bg_color=000000&title_color=00ff41&icon_color=00ff41&text_color=00b32d&border_color=00ff41&border_radius=4" width="49%"/></a>
@@ -311,22 +214,17 @@ root@nuklaso:~# systemctl status [OS_PROJECT_NAME]
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nuklaso&custom_title=SIGNAL%20TRACE%20%2F%2F%20LAST%2031%20DAYS&bg_color=000000&color=00ff41&line=00ff41&point=d7ffd7&area=true&area_color=00ff41&title_color=00ff41&hide_border=false&border_color=00ff41&radius=4" width="100%"/>
 
-<br/>
-
 `root@nuklaso:~# ./snake --devour ~/.contributions`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nuklaso/Nuklaso/output/snake-matrix.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/output/snake-matrix.svg" width="100%"/>
-</picture>
+<img src="https://raw.githubusercontent.com/Nuklaso/Nuklaso/output/snake-matrix.svg" width="100%"/>
 
 </div>
 
 <details>
-<summary><b>&nbsp;▸&nbsp; setup — the snake needs one workflow to exist</b></summary>
+<summary><b>&nbsp;▸&nbsp; snake setup — needs one workflow file</b></summary>
 <br/>
 
-Create `.github/workflows/snake.yml`, commit, then **Actions → generate snake → Run workflow** once. It publishes to an `output` branch that the image above reads from.
+Create `.github/workflows/snake.yml`, commit, then **Actions → generate snake → Run workflow** once.
 
 ```yaml
 name: generate snake
@@ -368,7 +266,6 @@ root@nuklaso:~# nc -lvnp 1337 --accept inbound-collabs
 <a href="[TWITTER_URL]"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=00ff41&labelColor=000000&color=003b12"/></a>
 <a href="[DISCORD_URL]"><img src="https://img.shields.io/badge/DISCORD-000000?style=for-the-badge&logo=discord&logoColor=00ff41&labelColor=000000&color=003b12"/></a>
 <a href="mailto:[EMAIL]"><img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=maildotru&logoColor=00ff41&labelColor=000000&color=003b12"/></a>
-<a href="[BLOG_URL]"><img src="https://img.shields.io/badge/DEV_LOG-000000?style=for-the-badge&logo=hashnode&logoColor=00ff41&labelColor=000000&color=003b12"/></a>
 
 </div>
 
@@ -392,15 +289,12 @@ root@nuklaso:~# shutdown -h now
 
 [ 9999.999999] unmounting /dev/web ............................... [  OK  ]
 [ 9999.999999] flushing scheduler queue .......................... [  OK  ]
-[ 9999.999999] kernel: syncing filesystems ....................... [  OK  ]
 [ 9999.999999] there is no spoon ................................. [  OK  ]
 
   System halted.  Wake up.
 ```
 
 <div align="center">
-
-`ｱ 0 ﾂ 1 ﾈ 0 ﾏ 1 ｻ 0 ﾑ 1 ｷ 0 ﾈ 1 ﾀ 0 ｼ 1 ﾐ 0 ｹ 1 ﾂ 0 ｶ 1 ﾇ 0 ﾏ 1 ｵ`
 
 <img src="https://komarev.com/ghpvc/?username=Nuklaso&style=for-the-badge&color=00ff41&labelColor=000000&label=SESSIONS+TRACED"/>
 <img src="https://img.shields.io/github/followers/Nuklaso?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=003b12&label=OPERATORS"/>
