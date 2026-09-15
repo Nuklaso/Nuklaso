@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="NUKLASO">
+<title>NUKLASO</title>
+<defs>
+  <linearGradient id="wm" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="78">
+    <stop offset="0%" stop-color="#7c3aed">
+      <animate attributeName="stop-color" values="#7c3aed;#c026d3;#22d3ee;#7c3aed" dur="9s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="55%" stop-color="#c084fc">
+      <animate attributeName="stop-color" values="#c084fc;#f0abfc;#67e8f9;#c084fc" dur="9s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#22d3ee">
+      <animate attributeName="stop-color" values="#22d3ee;#7c3aed;#c026d3;#22d3ee" dur="9s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+
+  <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-260" y1="0" x2="-60" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity=".92"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <animate attributeName="x1" values="-260;520" dur="4.2s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="-60;760" dur="4.2s" repeatCount="indefinite"/>
+  </linearGradient>
+
+  <radialGradient id="halo1" cx="50%" cy="46%" r="52%">
+    <stop offset="0%" stop-color="#a855f7" stop-opacity=".30"/>
+    <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="halo2" cx="20%" cy="85%" r="45%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity=".20"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="halo3" cx="82%" cy="18%" r="40%">
+    <stop offset="0%" stop-color="#e879f9" stop-opacity=".18"/>
+    <stop offset="100%" stop-color="#e879f9" stop-opacity="0"/>
+  </radialGradient>
+
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#08070c" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#08070c" stop-opacity="0"/>
+  </linearGradient>
+
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="9" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3"/>
+  </filter>
+
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#ffffff" opacity=".045"/>
+  </pattern>
+
+  <g id="glyphs" fill="none" stroke-width="11" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M0,78 L0,0 L56,78 L56,0"/>
+    <path transform="translate(74,0)" d="M0,0 L0,60 L16,78 L40,78 L56,60 L56,0"/>
+    <path transform="translate(148,0)" d="M0,0 L0,78 M54,2 L4,41 M20,29 L54,78"/>
+    <path transform="translate(222,0)" d="M0,0 L0,78 L50,78"/>
+    <path transform="translate(296,0)" d="M2,78 L28,0 L54,78 M13,50 L43,50"/>
+    <path transform="translate(370,0)" d="M56,12 L44,0 L12,0 L0,12 L0,27 L12,39 L44,39 L56,51 L56,66 L44,78 L12,78 L0,66"/>
+    <path transform="translate(444,0)" d="M16,0 L40,0 L56,16 L56,62 L40,78 L16,78 L0,62 L0,16 Z"/>
+  </g>
+
+  <clipPath id="frame"><rect width="1200" height="340"/></clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+
+<rect width="1200" height="340" fill="#08070c"/>
+<rect width="1200" height="340" fill="url(#halo1)"/>
+<rect width="1200" height="340" fill="url(#halo2)"/>
+<rect width="1200" height="340" fill="url(#halo3)"/>
+
+<g stroke="#a855f7" opacity=".26">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 26" dur="2.6s" repeatCount="indefinite"/>
+    <line x1="0" y1="252" x2="1200" y2="252" stroke-width=".8" opacity=".30"/>
+    <line x1="0" y1="264" x2="1200" y2="264" stroke-width=".9" opacity=".40"/>
+    <line x1="0" y1="278" x2="1200" y2="278" stroke-width="1" opacity=".50"/>
+    <line x1="0" y1="294" x2="1200" y2="294" stroke-width="1.1" opacity=".60"/>
+    <line x1="0" y1="313" x2="1200" y2="313" stroke-width="1.2" opacity=".70"/>
+    <line x1="0" y1="335" x2="1200" y2="335" stroke-width="1.3" opacity=".80"/>
+    <line x1="0" y1="361" x2="1200" y2="361" stroke-width="1.4" opacity=".85"/>
+  </g>
+  <g stroke-width=".9" opacity=".55">
+    <line x1="600" y1="246" x2="-900" y2="340"/>
+    <line x1="600" y1="246" x2="-460" y2="340"/>
+    <line x1="600" y1="246" x2="-130" y2="340"/>
+    <line x1="600" y1="246" x2="130" y2="340"/>
+    <line x1="600" y1="246" x2="330" y2="340"/>
+    <line x1="600" y1="246" x2="490" y2="340"/>
+    <line x1="600" y1="246" x2="600" y2="340"/>
+    <line x1="600" y1="246" x2="710" y2="340"/>
+    <line x1="600" y1="246" x2="870" y2="340"/>
+    <line x1="600" y1="246" x2="1070" y2="340"/>
+    <line x1="600" y1="246" x2="1330" y2="340"/>
+    <line x1="600" y1="246" x2="1660" y2="340"/>
+    <line x1="600" y1="246" x2="2100" y2="340"/>
+  </g>
+</g>
+<rect x="0" y="240" width="1200" height="34" fill="url(#fade)"/>
+
+<g fill="#e9d5ff">
+  <circle cx="120" cy="300" r="1.6" opacity=".7"><animate attributeName="cy" values="310;40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="318" cy="300" r="1.2" opacity=".6"><animate attributeName="cy" values="320;30" dur="9s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;0" dur="9s" begin="-3s" repeatCount="indefinite"/></circle>
+  <circle cx="905" cy="300" r="1.7" opacity=".7"><animate attributeName="cy" values="315;35" dur="8s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.85;0" dur="8s" begin="-5s" repeatCount="indefinite"/></circle>
+  <circle cx="1078" cy="300" r="1.3" opacity=".6"><animate attributeName="cy" values="325;45" dur="10s" begin="-6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;0" dur="10s" begin="-6.5s" repeatCount="indefinite"/></circle>
+  <circle cx="680" cy="300" r="1.1" opacity=".5"><animate attributeName="cy" values="318;60" dur="11s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;0" dur="11s" begin="-2s" repeatCount="indefinite"/></circle>
+</g>
+
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.4">
+  <text x="44" y="46" fill="#7c5ba6">SYS://PROFILE</text>
+  <text x="1156" y="46" fill="#7c5ba6" text-anchor="end">REGENSBURG &#183; DE</text>
+  <circle cx="196" cy="42" r="3.4" fill="#22d3ee"><animate attributeName="opacity" values="1;.15;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="208" y="46" fill="#22d3ee" opacity=".85">ONLINE</text>
+</g>
+<line x1="44" y1="58" x2="1156" y2="58" stroke="#a855f7" stroke-width="1" opacity=".22"/>
+
+<g transform="translate(225,104) scale(1.5)">
+  <use xlink:href="#glyphs" href="#glyphs" stroke="#a855f7" filter="url(#glow)" opacity=".85"/>
+  <use xlink:href="#glyphs" href="#glyphs" stroke="#22d3ee" opacity=".30">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;-3 1;2 -1;0 0;0 0" dur="6s" keyTimes="0;.72;.76;.8;.84;1" repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#glyphs" href="#glyphs" stroke="#f0abfc" opacity=".30">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;3 -1;-2 1;0 0;0 0" dur="6s" keyTimes="0;.72;.76;.8;.84;1" repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#glyphs" href="#glyphs" stroke="url(#wm)"/>
+  <use xlink:href="#glyphs" href="#glyphs" stroke="url(#sweep)"/>
+</g>
+
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
+  <text x="600" y="262" fill="#cbb6e8" font-size="17" letter-spacing="5.5">PYTHON &#183; ALGORITHMS &#183; GAME AI &#183; AUTOMATION</text>
+  <text x="600" y="296" fill="#6d5a8f" font-size="13" letter-spacing="3">build small things well, then build bigger things</text>
+</g>
+
+<g stroke="#22d3ee" stroke-width="2" fill="none" opacity=".75">
+  <path d="M22,92 L22,22 L92,22"/>
+  <path d="M1178,92 L1178,22 L1108,22"/>
+  <path d="M22,248 L22,318 L92,318"/>
+  <path d="M1178,248 L1178,318 L1108,318"/>
+</g>
+
+<rect width="1200" height="340" fill="url(#scan)"/>
+<rect x="0" y="-60" width="1200" height="60" fill="#c084fc" opacity=".05" filter="url(#soft)">
+  <animate attributeName="y" values="-60;340" dur="5.5s" repeatCount="indefinite"/>
+</rect>
+
+</g>
+</svg>
