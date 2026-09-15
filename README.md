@@ -46,19 +46,11 @@ Search and heuristics, cleaner architecture, and everything between a script and
 
 <img src="assets/rule.svg" width="100%" alt=""/>
 
-<img src="assets/stack.svg" width="100%" alt="stack"/>
+<img src="assets/stack.svg" width="100%" alt="where the hours go"/>
 
 <img src="assets/rule.svg" width="100%" alt=""/>
 
-<div align="center">
-
-### `03 · THINGS I BUILT`
-
-<a href="https://github.com/Nuklaso/2048byNiklas"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Nuklaso&repo=2048byNiklas&bg_color=08070c&title_color=a855f7&icon_color=22d3ee&text_color=9a7fc4&border_color=a855f7&border_radius=8" width="32.5%"/></a>
-<a href="https://github.com/Nuklaso/ZEUKU-Maxxing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Nuklaso&repo=ZEUKU-Maxxing&bg_color=08070c&title_color=a855f7&icon_color=22d3ee&text_color=9a7fc4&border_color=a855f7&border_radius=8" width="32.5%"/></a>
-<a href="https://github.com/Nuklaso/How-to-get-Rickrolled"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Nuklaso&repo=How-to-get-Rickrolled&bg_color=08070c&title_color=a855f7&icon_color=22d3ee&text_color=9a7fc4&border_color=a855f7&border_radius=8" width="32.5%"/></a>
-
-</div>
+<img src="assets/repos.svg" width="100%" alt="latest repositories"/>
 
 | | PROJECT | WHAT IT DOES | STACK |
 |:--|:--|:--|:--|
@@ -68,25 +60,21 @@ Search and heuristics, cleaner architecture, and everything between a script and
 
 <img src="assets/rule.svg" width="100%" alt=""/>
 
-<div align="center">
+<img src="assets/langs.svg" width="100%" alt="languages"/>
 
-### `04 · TELEMETRY`
+<img src="assets/rule.svg" width="100%" alt=""/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nuklaso&show_icons=true&count_private=true&include_all_commits=true&bg_color=08070c&title_color=a855f7&icon_color=22d3ee&text_color=9a7fc4&border_color=a855f7&border_radius=8&ring_color=e879f9" height="170"/>
-<img src="https://streak-stats.demolab.com?user=Nuklaso&background=08070c&border=a855f7&stroke=a855f7&ring=e879f9&fire=22d3ee&currStreakNum=f2e8ff&currStreakLabel=a855f7&sideNums=9a7fc4&sideLabels=9a7fc4&dates=6d5a8f&border_radius=8" height="170"/>
+<img src="assets/stats.svg" width="100%" alt="telemetry"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nuklaso&layout=compact&langs_count=8&bg_color=08070c&title_color=a855f7&text_color=9a7fc4&border_color=a855f7&border_radius=8" height="165"/>
-<img src="https://github-profile-trophy.vercel.app/?username=Nuklaso&theme=dracula&no-frame=true&no-bg=true&column=3&row=2&margin-w=10&margin-h=10" height="165"/>
+<img src="assets/heatmap.svg" width="100%" alt="contribution heatmap"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nuklaso&custom_title=SIGNAL%20TRACE&bg_color=08070c&color=e9d5ff&line=a855f7&point=22d3ee&area=true&area_color=a855f7&title_color=a855f7&hide_border=false&border_color=a855f7&radius=8" width="100%"/>
-
-</div>
+<sub>Every card above is drawn by [`gen_profile_svgs.py`](.github/scripts/gen_profile_svgs.py) straight from the GitHub API and refreshed by [a scheduled Action](.github/workflows/profile.yml) — no third-party card service that can rate-limit itself into a broken image.</sub>
 
 <img src="assets/rule.svg" width="100%" alt=""/>
 
 <div align="center">
 
-### `05 · CONTRIBUTION SNAKE`
+### `07 · CONTRIBUTION SNAKE`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nuklaso/Nuklaso/output/snake-dark.svg"/>
@@ -100,7 +88,7 @@ Search and heuristics, cleaner architecture, and everything between a script and
 
 <div align="center">
 
-### `06 · CONNECT`
+### `08 · CONNECT`
 
 <a href="https://github.com/Nuklaso"><img src="https://img.shields.io/badge/GITHUB-08070c?style=for-the-badge&logo=github&logoColor=a855f7&labelColor=08070c"/></a>
 <a href="https://github.com/Nuklaso?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-08070c?style=for-the-badge&logo=git&logoColor=22d3ee&labelColor=08070c"/></a>
