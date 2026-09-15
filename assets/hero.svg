@@ -1,57 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="NUKLASO">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="NUKLASO">
 <title>NUKLASO</title>
 <defs>
-  <linearGradient id="wm" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="78">
-    <stop offset="0%" stop-color="#7c3aed">
-      <animate attributeName="stop-color" values="#7c3aed;#c026d3;#22d3ee;#7c3aed" dur="9s" repeatCount="indefinite"/>
-    </stop>
-    <stop offset="55%" stop-color="#c084fc">
-      <animate attributeName="stop-color" values="#c084fc;#f0abfc;#67e8f9;#c084fc" dur="9s" repeatCount="indefinite"/>
-    </stop>
-    <stop offset="100%" stop-color="#22d3ee">
-      <animate attributeName="stop-color" values="#22d3ee;#7c3aed;#c026d3;#22d3ee" dur="9s" repeatCount="indefinite"/>
-    </stop>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0b0814"/>
+    <stop offset="55%" stop-color="#07060b"/>
+    <stop offset="100%" stop-color="#0a0713"/>
   </linearGradient>
 
-  <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-260" y1="0" x2="-60" y2="0">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#ffffff" stop-opacity=".92"/>
-    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    <animate attributeName="x1" values="-260;520" dur="4.2s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="-60;760" dur="4.2s" repeatCount="indefinite"/>
-  </linearGradient>
-
-  <radialGradient id="halo1" cx="50%" cy="46%" r="52%">
-    <stop offset="0%" stop-color="#a855f7" stop-opacity=".30"/>
-    <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+  <radialGradient id="neb1" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#7c3aed" stop-opacity=".34"/>
+    <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="halo2" cx="20%" cy="85%" r="45%">
-    <stop offset="0%" stop-color="#22d3ee" stop-opacity=".20"/>
+  <radialGradient id="neb2" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity=".22"/>
     <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="halo3" cx="82%" cy="18%" r="40%">
-    <stop offset="0%" stop-color="#e879f9" stop-opacity=".18"/>
+  <radialGradient id="neb3" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e879f9" stop-opacity=".20"/>
     <stop offset="100%" stop-color="#e879f9" stop-opacity="0"/>
   </radialGradient>
 
-  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#08070c" stop-opacity="1"/>
-    <stop offset="100%" stop-color="#08070c" stop-opacity="0"/>
+  <linearGradient id="face" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="78">
+    <stop offset="0%" stop-color="#2a1b4d"/>
+    <stop offset="100%" stop-color="#0d0918"/>
+  </linearGradient>
+  <linearGradient id="rim" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="78">
+    <stop offset="0%" stop-color="#c084fc">
+      <animate attributeName="stop-color" values="#c084fc;#e879f9;#67e8f9;#c084fc" dur="11s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="50%" stop-color="#f0abfc">
+      <animate attributeName="stop-color" values="#f0abfc;#67e8f9;#c084fc;#f0abfc" dur="11s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#67e8f9">
+      <animate attributeName="stop-color" values="#67e8f9;#c084fc;#e879f9;#67e8f9" dur="11s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <linearGradient id="shimmer" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="-140" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity=".9"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <animate attributeName="x1" values="-300;520;520" keyTimes="0;.45;1" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="-140;680;680" keyTimes="0;.45;1" dur="6s" repeatCount="indefinite"/>
   </linearGradient>
 
-  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-    <feGaussianBlur stdDeviation="9" result="b"/>
+  <linearGradient id="mirrorFade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".34"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="mirrorMask">
+    <rect x="200" y="78" width="800" height="44" fill="url(#mirrorFade)"/>
+  </mask>
+
+  <linearGradient id="hzFade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#07060b" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#07060b" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="capTop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#07060b" stop-opacity=".9"/>
+    <stop offset="100%" stop-color="#07060b" stop-opacity="0"/>
+  </linearGradient>
+
+  <filter id="bloom" x="-70%" y="-70%" width="240%" height="240%">
+    <feGaussianBlur stdDeviation="11" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="b"/></feMerge>
   </filter>
-  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
-    <feGaussianBlur stdDeviation="3"/>
+  <filter id="hazy" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="4"/>
   </filter>
 
   <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-    <rect width="4" height="1" fill="#ffffff" opacity=".045"/>
+    <rect width="4" height="1" fill="#ffffff" opacity=".04"/>
   </pattern>
 
-  <g id="glyphs" fill="none" stroke-width="11" stroke-linecap="square" stroke-linejoin="miter">
+  <g id="glyphs">
     <path d="M0,78 L0,0 L56,78 L56,0"/>
     <path transform="translate(74,0)" d="M0,0 L0,60 L16,78 L40,78 L56,60 L56,0"/>
     <path transform="translate(148,0)" d="M0,0 L0,78 M54,2 L4,41 M20,29 L54,78"/>
@@ -61,89 +82,116 @@
     <path transform="translate(444,0)" d="M16,0 L40,0 L56,16 L56,62 L40,78 L16,78 L0,62 L0,16 Z"/>
   </g>
 
-  <clipPath id="frame"><rect width="1200" height="340"/></clipPath>
+  <clipPath id="reveal">
+    <rect x="190" y="70" width="0" height="260">
+      <animate attributeName="width" values="0;810" dur="1.15s" begin=".25s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/>
+    </rect>
+  </clipPath>
+  <clipPath id="page"><rect width="1200" height="420"/></clipPath>
 </defs>
 
-<g clip-path="url(#frame)">
+<g clip-path="url(#page)">
 
-<rect width="1200" height="340" fill="#08070c"/>
-<rect width="1200" height="340" fill="url(#halo1)"/>
-<rect width="1200" height="340" fill="url(#halo2)"/>
-<rect width="1200" height="340" fill="url(#halo3)"/>
+<rect width="1200" height="420" fill="url(#sky)"/>
 
-<g stroke="#a855f7" opacity=".26">
+<g>
+  <ellipse cx="560" cy="170" rx="520" ry="240" fill="url(#neb1)">
+    <animateTransform attributeName="transform" type="translate" values="-30 -8;40 10;-30 -8" dur="22s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="180" cy="330" rx="380" ry="200" fill="url(#neb2)">
+    <animateTransform attributeName="transform" type="translate" values="30 8;-40 -12;30 8" dur="27s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1030" cy="110" rx="340" ry="190" fill="url(#neb3)">
+    <animateTransform attributeName="transform" type="translate" values="0 10;30 -14;0 10" dur="19s" repeatCount="indefinite"/>
+  </ellipse>
+</g>
+
+<g fill="#f2e8ff">
+  <circle cx="92" cy="96" r="1.1" opacity=".5"><animate attributeName="opacity" values=".15;.8;.15" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="214" cy="62" r="1.4" opacity=".6"><animate attributeName="opacity" values=".7;.15;.7" dur="4.3s" repeatCount="indefinite"/></circle>
+  <circle cx="352" cy="118" r="1" opacity=".4"><animate attributeName="opacity" values=".1;.6;.1" dur="5.2s" repeatCount="indefinite"/></circle>
+  <circle cx="742" cy="74" r="1.2" opacity=".5"><animate attributeName="opacity" values=".6;.12;.6" dur="3.7s" repeatCount="indefinite"/></circle>
+  <circle cx="906" cy="126" r="1.5" opacity=".6"><animate attributeName="opacity" values=".18;.85;.18" dur="4.9s" repeatCount="indefinite"/></circle>
+  <circle cx="1084" cy="82" r="1.1" opacity=".45"><animate attributeName="opacity" values=".55;.1;.55" dur="6.1s" repeatCount="indefinite"/></circle>
+  <circle cx="1148" cy="188" r="1.3" opacity=".5"><animate attributeName="opacity" values=".12;.7;.12" dur="4.1s" repeatCount="indefinite"/></circle>
+  <circle cx="52" cy="216" r="1.2" opacity=".45"><animate attributeName="opacity" values=".6;.14;.6" dur="5.6s" repeatCount="indefinite"/></circle>
+</g>
+
+<g stroke="#a855f7" opacity=".3">
   <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 26" dur="2.6s" repeatCount="indefinite"/>
-    <line x1="0" y1="252" x2="1200" y2="252" stroke-width=".8" opacity=".30"/>
-    <line x1="0" y1="264" x2="1200" y2="264" stroke-width=".9" opacity=".40"/>
-    <line x1="0" y1="278" x2="1200" y2="278" stroke-width="1" opacity=".50"/>
-    <line x1="0" y1="294" x2="1200" y2="294" stroke-width="1.1" opacity=".60"/>
-    <line x1="0" y1="313" x2="1200" y2="313" stroke-width="1.2" opacity=".70"/>
-    <line x1="0" y1="335" x2="1200" y2="335" stroke-width="1.3" opacity=".80"/>
-    <line x1="0" y1="361" x2="1200" y2="361" stroke-width="1.4" opacity=".85"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 30" dur="3.1s" repeatCount="indefinite"/>
+    <line x1="0" y1="330" x2="1200" y2="330" stroke-width=".7" opacity=".3"/>
+    <line x1="0" y1="344" x2="1200" y2="344" stroke-width=".8" opacity=".42"/>
+    <line x1="0" y1="362" x2="1200" y2="362" stroke-width=".9" opacity=".54"/>
+    <line x1="0" y1="384" x2="1200" y2="384" stroke-width="1" opacity=".66"/>
+    <line x1="0" y1="411" x2="1200" y2="411" stroke-width="1.1" opacity=".78"/>
+    <line x1="0" y1="445" x2="1200" y2="445" stroke-width="1.2" opacity=".88"/>
   </g>
-  <g stroke-width=".9" opacity=".55">
-    <line x1="600" y1="246" x2="-900" y2="340"/>
-    <line x1="600" y1="246" x2="-460" y2="340"/>
-    <line x1="600" y1="246" x2="-130" y2="340"/>
-    <line x1="600" y1="246" x2="130" y2="340"/>
-    <line x1="600" y1="246" x2="330" y2="340"/>
-    <line x1="600" y1="246" x2="490" y2="340"/>
-    <line x1="600" y1="246" x2="600" y2="340"/>
-    <line x1="600" y1="246" x2="710" y2="340"/>
-    <line x1="600" y1="246" x2="870" y2="340"/>
-    <line x1="600" y1="246" x2="1070" y2="340"/>
-    <line x1="600" y1="246" x2="1330" y2="340"/>
-    <line x1="600" y1="246" x2="1660" y2="340"/>
-    <line x1="600" y1="246" x2="2100" y2="340"/>
+  <g stroke-width=".8" opacity=".5">
+    <line x1="600" y1="324" x2="-760" y2="420"/>
+    <line x1="600" y1="324" x2="-260" y2="420"/>
+    <line x1="600" y1="324" x2="80" y2="420"/>
+    <line x1="600" y1="324" x2="320" y2="420"/>
+    <line x1="600" y1="324" x2="480" y2="420"/>
+    <line x1="600" y1="324" x2="600" y2="420"/>
+    <line x1="600" y1="324" x2="720" y2="420"/>
+    <line x1="600" y1="324" x2="880" y2="420"/>
+    <line x1="600" y1="324" x2="1120" y2="420"/>
+    <line x1="600" y1="324" x2="1460" y2="420"/>
+    <line x1="600" y1="324" x2="1960" y2="420"/>
   </g>
 </g>
-<rect x="0" y="240" width="1200" height="34" fill="url(#fade)"/>
+<rect x="0" y="318" width="1200" height="40" fill="url(#hzFade)"/>
 
-<g fill="#e9d5ff">
-  <circle cx="120" cy="300" r="1.6" opacity=".7"><animate attributeName="cy" values="310;40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="7s" repeatCount="indefinite"/></circle>
-  <circle cx="318" cy="300" r="1.2" opacity=".6"><animate attributeName="cy" values="320;30" dur="9s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;0" dur="9s" begin="-3s" repeatCount="indefinite"/></circle>
-  <circle cx="905" cy="300" r="1.7" opacity=".7"><animate attributeName="cy" values="315;35" dur="8s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.85;0" dur="8s" begin="-5s" repeatCount="indefinite"/></circle>
-  <circle cx="1078" cy="300" r="1.3" opacity=".6"><animate attributeName="cy" values="325;45" dur="10s" begin="-6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;0" dur="10s" begin="-6.5s" repeatCount="indefinite"/></circle>
-  <circle cx="680" cy="300" r="1.1" opacity=".5"><animate attributeName="cy" values="318;60" dur="11s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.6;0" dur="11s" begin="-2s" repeatCount="indefinite"/></circle>
+<g clip-path="url(#reveal)">
+  <g transform="translate(225,120) scale(1.5)">
+    <g mask="url(#mirrorMask)" transform="translate(0,168) scale(1,-1)">
+      <use xlink:href="#glyphs" href="#glyphs" fill="none" stroke="#a855f7" stroke-width="11" stroke-linecap="square"/>
+    </g>
+    <use xlink:href="#glyphs" href="#glyphs" fill="none" stroke="#a855f7" stroke-width="11" filter="url(#bloom)" opacity=".8"/>
+    <use xlink:href="#glyphs" href="#glyphs" fill="none" stroke="url(#rim)" stroke-width="11" stroke-linecap="square" stroke-linejoin="miter"/>
+    <use xlink:href="#glyphs" href="#glyphs" fill="none" stroke="#fdf4ff" stroke-width="2.6" stroke-linecap="square" opacity=".42" transform="translate(-1.6,-1.6)"/>
+    <use xlink:href="#glyphs" href="#glyphs" fill="none" stroke="url(#shimmer)" stroke-width="11" stroke-linecap="square"/>
+  </g>
 </g>
-
-<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.4">
-  <text x="44" y="46" fill="#7c5ba6">SYS://PROFILE</text>
-  <text x="1156" y="46" fill="#7c5ba6" text-anchor="end">REGENSBURG &#183; DE</text>
-  <circle cx="196" cy="42" r="3.4" fill="#22d3ee"><animate attributeName="opacity" values="1;.15;1" dur="1.8s" repeatCount="indefinite"/></circle>
-  <text x="208" y="46" fill="#22d3ee" opacity=".85">ONLINE</text>
-</g>
-<line x1="44" y1="58" x2="1156" y2="58" stroke="#a855f7" stroke-width="1" opacity=".22"/>
-
-<g transform="translate(225,104) scale(1.5)">
-  <use xlink:href="#glyphs" href="#glyphs" stroke="#a855f7" filter="url(#glow)" opacity=".85"/>
-  <use xlink:href="#glyphs" href="#glyphs" stroke="#22d3ee" opacity=".30">
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;-3 1;2 -1;0 0;0 0" dur="6s" keyTimes="0;.72;.76;.8;.84;1" repeatCount="indefinite"/>
-  </use>
-  <use xlink:href="#glyphs" href="#glyphs" stroke="#f0abfc" opacity=".30">
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;3 -1;-2 1;0 0;0 0" dur="6s" keyTimes="0;.72;.76;.8;.84;1" repeatCount="indefinite"/>
-  </use>
-  <use xlink:href="#glyphs" href="#glyphs" stroke="url(#wm)"/>
-  <use xlink:href="#glyphs" href="#glyphs" stroke="url(#sweep)"/>
-</g>
-
-<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
-  <text x="600" y="262" fill="#cbb6e8" font-size="17" letter-spacing="5.5">PYTHON &#183; ALGORITHMS &#183; GAME AI &#183; AUTOMATION</text>
-  <text x="600" y="296" fill="#6d5a8f" font-size="13" letter-spacing="3">build small things well, then build bigger things</text>
-</g>
-
-<g stroke="#22d3ee" stroke-width="2" fill="none" opacity=".75">
-  <path d="M22,92 L22,22 L92,22"/>
-  <path d="M1178,92 L1178,22 L1108,22"/>
-  <path d="M22,248 L22,318 L92,318"/>
-  <path d="M1178,248 L1178,318 L1108,318"/>
-</g>
-
-<rect width="1200" height="340" fill="url(#scan)"/>
-<rect x="0" y="-60" width="1200" height="60" fill="#c084fc" opacity=".05" filter="url(#soft)">
-  <animate attributeName="y" values="-60;340" dur="5.5s" repeatCount="indefinite"/>
+<rect x="0" y="80" width="6" height="200" fill="#e6faff" opacity="0" filter="url(#hazy)">
+  <animate attributeName="x" values="200;790" dur="1.15s" begin=".25s" fill="freeze" calcMode="spline" keySplines=".2 .7 .2 1"/>
+  <animate attributeName="opacity" values="0;.85;.85;0" keyTimes="0;.08;.9;1" dur="1.4s" begin=".25s" fill="freeze"/>
 </rect>
 
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="64" y="46" fill="#7c5ba6" font-size="12" letter-spacing="2.4">SYS://PROFILE</text>
+  <circle cx="216" cy="42" r="3.4" fill="#22d3ee"><animate attributeName="opacity" values="1;.15;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="228" y="46" fill="#22d3ee" font-size="12" letter-spacing="2.4" opacity=".9">ONLINE</text>
+  <text x="1136" y="46" fill="#7c5ba6" font-size="12" letter-spacing="2.4" text-anchor="end">REGENSBURG &#183; DE</text>
+  <line x1="64" y1="58" x2="1136" y2="58" stroke="#a855f7" stroke-opacity=".2"/>
+
+  <text x="600" y="302" text-anchor="middle" fill="#d9c8f0" font-size="16" letter-spacing="6.2" opacity="0">
+    PYTHON &#183; EXPECTIMAX &#183; BITBOARDS &#183; NO DEPENDENCIES
+    <animate attributeName="opacity" values="0;1" dur=".7s" begin="1.2s" fill="freeze"/>
+  </text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur=".7s" begin="1.5s" fill="freeze"/>
+    <line x1="64" y1="344" x2="1136" y2="344" stroke="#a855f7" stroke-opacity=".18"/>
+    <text x="64" y="374" fill="#8a75ad" font-size="11.5" letter-spacing="2">01 &#8594; i write the engine, not the wrapper</text>
+    <text x="600" y="390" text-anchor="middle" fill="#6d5a8f" font-size="11.5" letter-spacing="2">02 &#8594; stdlib until it hurts</text>
+    <text x="1136" y="390" text-anchor="end" fill="#6d5a8f" font-size="11.5" letter-spacing="2">03 &#8594; then benchmark it</text>
+  </g>
+</g>
+
+<g stroke="#22d3ee" stroke-width="1.8" fill="none" opacity=".7">
+  <path d="M24,104 L24,24 L104,24"/>
+  <path d="M1176,104 L1176,24 L1096,24"/>
+  <path d="M24,316 L24,396 L104,396"/>
+  <path d="M1176,316 L1176,396 L1096,396"/>
+</g>
+
+<rect width="1200" height="420" fill="url(#scan)"/>
+<rect x="0" y="-70" width="1200" height="70" fill="#c084fc" opacity=".045" filter="url(#hazy)">
+  <animate attributeName="y" values="-70;420" dur="6.5s" repeatCount="indefinite"/>
+</rect>
+<rect width="1200" height="26" fill="url(#capTop)"/>
+<rect y="394" width="1200" height="26" fill="url(#capTop)" transform="rotate(180 600 407)"/>
 </g>
 </svg>

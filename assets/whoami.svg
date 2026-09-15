@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="whoami">
+<title>whoami</title>
+<defs>
+  <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#1a1226"/><stop offset="100%" stop-color="#120e1c"/>
+  </linearGradient>
+  <radialGradient id="wglow" cx="30%" cy="0%" r="90%">
+    <stop offset="0%" stop-color="#a855f7" stop-opacity=".14"/>
+    <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#22d3ee"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#22d3ee" stop-opacity=".9"/>
+    <stop offset="100%" stop-color="#e879f9" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="wsoft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  <pattern id="wmesh" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1" fill="#a855f7" opacity=".12"/>
+  </pattern>
+
+  <clipPath id="t1"><rect x="88" y="156" width="0" height="26"><animate attributeName="width" values="0;0;224;224;0;0" keyTimes="0;.043;.143;.964;.971;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="t3"><rect x="88" y="216" width="0" height="26"><animate attributeName="width" values="0;0;287;287;0;0" keyTimes="0;.229;.336;.964;.971;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="t5"><rect x="88" y="276" width="0" height="26"><animate attributeName="width" values="0;0;269;269;0;0" keyTimes="0;.421;.521;.964;.971;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="t7"><rect x="88" y="336" width="0" height="26"><animate attributeName="width" values="0;0;161;161;0;0" keyTimes="0;.6;.607;.964;.971;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+
+<rect width="1200" height="460" fill="#07060b"/>
+<rect width="1200" height="460" fill="url(#wmesh)"/>
+
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="64" y="52" fill="#22d3ee" font-size="13" letter-spacing="4">01 &#183; WHOAMI</text>
+  <text x="1136" y="52" fill="#6d5a8f" font-size="12" letter-spacing="2" text-anchor="end">HUMAN &#183; READABLE</text>
+  <line x1="64" y1="66" x2="1136" y2="66" stroke="#a855f7" stroke-opacity=".22"/>
+
+  <rect x="64" y="100" width="696" height="336" rx="12" fill="#0d0a17" stroke="#a855f7" stroke-opacity=".3"/>
+  <rect x="64" y="100" width="696" height="336" rx="12" fill="url(#wglow)"/>
+  <path d="M76,100 H748 a12,12 0 0 1 12,12 V136 H64 V112 a12,12 0 0 1 12,-12 Z" fill="url(#chrome)"/>
+  <line x1="64" y1="136" x2="760" y2="136" stroke="#a855f7" stroke-opacity=".26"/>
+  <circle cx="90" cy="118" r="5.5" fill="#ff5f57"/>
+  <circle cx="110" cy="118" r="5.5" fill="#febc2e"/>
+  <circle cx="130" cy="118" r="5.5" fill="#28c840"/>
+  <text x="412" y="123" text-anchor="middle" fill="#6d5a8f" font-size="12" letter-spacing="1.4">niklas@nuklaso: ~ &#8212; zsh</text>
+
+  <g font-size="15">
+    <g clip-path="url(#t1)">
+      <text x="96" y="176" textLength="216" lengthAdjust="spacing"><tspan fill="#22d3ee">niklas@nuklaso</tspan><tspan fill="#6d5a8f">:~$ </tspan><tspan fill="#f2e8ff">whoami</tspan></text>
+    </g>
+    <rect x="96" y="163" width="9" height="16" fill="#22d3ee" opacity="0">
+      <animate attributeName="x" values="96;96;312;312;96;96" keyTimes="0;.043;.143;.964;.971;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.043;.16;.17;1" dur="14s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="96" y="206" fill="#c9b6e6" opacity="0" textLength="351" lengthAdjust="spacing">Niklas - developer from Regensburg, DE
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.164;.182;.964;.971;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+
+    <g clip-path="url(#t3)">
+      <text x="96" y="236" textLength="279" lengthAdjust="spacing"><tspan fill="#22d3ee">niklas@nuklaso</tspan><tspan fill="#6d5a8f">:~$ </tspan><tspan fill="#f2e8ff">cat stack.txt</tspan></text>
+    </g>
+    <rect x="96" y="223" width="9" height="16" fill="#22d3ee" opacity="0">
+      <animate attributeName="x" values="96;96;375;375;96;96" keyTimes="0;.229;.336;.964;.971;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.229;.232;.352;.362;1" dur="14s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="96" y="266" fill="#c9b6e6" opacity="0" textLength="378" lengthAdjust="spacing">python - algorithms - automation - tooling
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.357;.375;.964;.971;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+
+    <g clip-path="url(#t5)">
+      <text x="96" y="296" textLength="261" lengthAdjust="spacing"><tspan fill="#22d3ee">niklas@nuklaso</tspan><tspan fill="#6d5a8f">:~$ </tspan><tspan fill="#f2e8ff">cat now.txt</tspan></text>
+    </g>
+    <rect x="96" y="283" width="9" height="16" fill="#22d3ee" opacity="0">
+      <animate attributeName="x" values="96;96;357;357;96;96" keyTimes="0;.421;.521;.964;.971;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.421;.424;.537;.547;1" dur="14s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="96" y="326" fill="#c9b6e6" opacity="0" textLength="432" lengthAdjust="spacing">making an expectimax ai reach 4096 in pure python
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.543;.561;.964;.971;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+
+    <g clip-path="url(#t7)">
+      <text x="96" y="356" textLength="153" lengthAdjust="spacing"><tspan fill="#22d3ee">niklas@nuklaso</tspan><tspan fill="#6d5a8f">:~$</tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.6;.607;.964;.971;1" dur="14s" repeatCount="indefinite"/>
+      <rect x="257" y="343" width="9" height="16" fill="#22d3ee">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <rect x="784" y="100" width="352" height="336" rx="12" fill="#0d0a17" stroke="#a855f7" stroke-opacity=".3"/>
+  <rect x="806" y="100" width="308" height="2" fill="url(#edge)">
+    <animate attributeName="opacity" values=".3;1;.3" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="816" y="128" width="72" height="72" rx="16" fill="url(#badge)" opacity=".18"/>
+  <rect x="816" y="128" width="72" height="72" rx="16" fill="none" stroke="url(#badge)" stroke-width="1.6"/>
+  <path d="M836,182 L836,146 L868,182 L868,146" fill="none" stroke="#f2e8ff" stroke-width="5.5" stroke-linecap="square"/>
+  <text x="906" y="154" fill="#f2e8ff" font-size="19" font-weight="bold">Niklas</text>
+  <text x="906" y="176" fill="#6d5a8f" font-size="12.5">@Nuklaso</text>
+  <g>
+    <circle cx="911" cy="192" r="3.4" fill="#22d3ee"><animate attributeName="opacity" values="1;.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="924" y="196" fill="#22d3ee" font-size="11.5" letter-spacing="1.4">BUILDING</text>
+  </g>
+
+  <line x1="816" y1="224" x2="1104" y2="224" stroke="#a855f7" stroke-opacity=".2"/>
+
+  <g font-size="12.5">
+    <text x="816" y="252" fill="#6d5a8f" letter-spacing="1.6">BASE</text>
+    <text x="1104" y="252" fill="#cbb6e8" text-anchor="end">Regensburg, Germany</text>
+    <text x="816" y="282" fill="#6d5a8f" letter-spacing="1.6">FOCUS</text>
+    <text x="1104" y="282" fill="#cbb6e8" text-anchor="end">algorithms &amp; game AI</text>
+    <text x="816" y="312" fill="#6d5a8f" letter-spacing="1.6">RUNTIME</text>
+    <text x="1104" y="312" fill="#cbb6e8" text-anchor="end">python 3, stdlib first</text>
+    <text x="816" y="342" fill="#6d5a8f" letter-spacing="1.6">RULE</text>
+    <text x="1104" y="342" fill="#cbb6e8" text-anchor="end">benchmark, then believe</text>
+  </g>
+
+  <g fill="#a855f7">
+    <rect x="816" y="392" width="5" height="10" rx="2"><animate attributeName="height" values="6;26;10;6" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="396;376;392;396" dur="1.7s" repeatCount="indefinite"/></rect>
+    <rect x="828" y="386" width="5" height="16" rx="2"><animate attributeName="height" values="16;6;24;16" dur="2.1s" repeatCount="indefinite"/><animate attributeName="y" values="386;396;378;386" dur="2.1s" repeatCount="indefinite"/></rect>
+    <rect x="840" y="390" width="5" height="12" rx="2"><animate attributeName="height" values="12;28;8;12" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="390;374;394;390" dur="1.4s" repeatCount="indefinite"/></rect>
+    <rect x="852" y="384" width="5" height="18" rx="2" fill="#22d3ee"><animate attributeName="height" values="18;8;26;18" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y" values="384;394;376;384" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect x="864" y="392" width="5" height="10" rx="2"><animate attributeName="height" values="10;22;6;10" dur="1.9s" repeatCount="indefinite"/><animate attributeName="y" values="392;380;396;392" dur="1.9s" repeatCount="indefinite"/></rect>
+    <rect x="876" y="388" width="5" height="14" rx="2" fill="#e879f9"><animate attributeName="height" values="14;6;22;14" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="388;396;380;388" dur="1.6s" repeatCount="indefinite"/></rect>
+  </g>
+  <text x="1104" y="401" fill="#6d5a8f" font-size="11" text-anchor="end" letter-spacing="1.4">STILL COMPILING</text>
+</g>
+
+<rect x="64" y="60" width="1072" height="40" fill="#c084fc" opacity=".05" filter="url(#wsoft)">
+  <animate attributeName="y" values="60;400;60" dur="9s" repeatCount="indefinite"/>
+</rect>
+</svg>
