@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="Roblox Studio - Luau game systems">
+<title>Roblox Studio - Luau game systems</title>
+<defs>
+  <pattern id="mesh" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1" fill="#ff5252" opacity=".12"/>
+  </pattern>
+  <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+    <rect width="3" height="1" fill="#ffffff" opacity=".05"/>
+  </pattern>
+  <radialGradient id="vignette" cx="50%" cy="50%" r="72%">
+    <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity=".62"/>
+  </radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ff5252" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ff5252" stop-opacity=".9"/>
+    <stop offset="100%" stop-color="#ff5252" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="phosphor" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="2.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  <clipPath id="c1"><rect x="108" y="153.5" width="0" height="22"><animate attributeName="width" values="0;0;371;371;0;0" keyTimes="0;0.03000;0.07200;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c2"><rect x="108" y="178.5" width="0" height="22"><animate attributeName="width" values="0;0;371;371;0;0" keyTimes="0;0.08057;0.12257;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c3"><rect x="108" y="203.5" width="0" height="22"><animate attributeName="width" values="0;0;389;389;0;0" keyTimes="0;0.13114;0.17514;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c4"><rect x="108" y="241.0" width="0" height="22"><animate attributeName="width" values="0;0;389;389;0;0" keyTimes="0;0.18371;0.22771;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c5"><rect x="108" y="266.0" width="0" height="22"><animate attributeName="width" values="0;0;397;397;0;0" keyTimes="0;0.23629;0.28129;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c6"><rect x="108" y="291.0" width="0" height="22"><animate attributeName="width" values="0;0;415;415;0;0" keyTimes="0;0.28986;0.33686;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c7"><rect x="108" y="316.0" width="0" height="22"><animate attributeName="width" values="0;0;223;223;0;0" keyTimes="0;0.34543;0.37043;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c8"><rect x="108" y="341.0" width="0" height="22"><animate attributeName="width" values="0;0;337;337;0;0" keyTimes="0;0.37900;0.41700;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="c9"><rect x="108" y="366.0" width="0" height="22"><animate attributeName="width" values="0;0;41;41;0;0" keyTimes="0;0.42557;0.43414;.965;.972;1" dur="14.00s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect width="1200" height="600" fill="#080a10"/>
+<rect width="1200" height="600" fill="url(#mesh)"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <rect x="64" y="34" width="34" height="22" rx="5" fill="#ff5252" opacity=".16"/>
+  <text x="81" y="50" text-anchor="middle" fill="#ff5252" font-size="12" font-weight="bold" letter-spacing="1">05</text>
+  <text x="110" y="50" fill="#ff5252" font-size="13" letter-spacing="4">ROBLOX STUDIO</text>
+  <text x="1136" y="50" fill="#6d5a8f" font-size="12" letter-spacing="2" text-anchor="end">LUAU · GAME SYSTEMS · LIVE PLAYERS</text>
+  <line x1="64" y1="66" x2="1136" y2="66" stroke="#ff5252" stroke-opacity=".22"/>
+</g>
+  <rect x="64" y="96" width="556" height="440" rx="10" fill="#12141a" stroke="#ff5252" stroke-opacity=".3"/>
+  <path d="M76,96 H608 a10,10 0 0 1 10,10 V128 H64 V106 a10,10 0 0 1 12,-10 Z" fill="#1b1e26"/>
+  <line x1="64" y1="128" x2="620" y2="128" stroke="#ff5252" stroke-opacity=".26"/>
+  <rect x="80" y="104" width="150" height="24" rx="5" fill="#12141a"/>
+  <text x="92" y="121" fill="#8b93a7" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Economy.luau</text>
+  <text x="600" y="121" text-anchor="end" fill="#8b93a7" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">SERVER</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="86" y="168" fill="#39404f" font-size="12" text-anchor="end">1</text>
+  <text x="86" y="193" fill="#39404f" font-size="12" text-anchor="end">2</text>
+  <text x="86" y="218" fill="#39404f" font-size="12" text-anchor="end">3</text>
+  <text x="86" y="256" fill="#39404f" font-size="12" text-anchor="end">4</text>
+  <text x="86" y="280" fill="#39404f" font-size="12" text-anchor="end">5</text>
+  <text x="86" y="306" fill="#39404f" font-size="12" text-anchor="end">6</text>
+  <text x="86" y="330" fill="#39404f" font-size="12" text-anchor="end">7</text>
+  <text x="86" y="356" fill="#39404f" font-size="12" text-anchor="end">8</text>
+  <text x="86" y="380" fill="#39404f" font-size="12" text-anchor="end">9</text>
+  <g clip-path="url(#c1)"><text x="112" y="168" font-size="14.5" textLength="365" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#6e7a8a">--&#160;ServerScriptService/Economy.server.luau</tspan></text></g>
+  <rect x="112" y="156" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;477;477;112;112" keyTimes="0;0.03000;0.07200;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.03000;0.03071;0.08057;0.08129;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c2)"><text x="112" y="193" font-size="14.5" textLength="365" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#ff7b72">local</tspan><tspan fill="#e6edf3">&#160;Players&#160;</tspan><tspan fill="#e6edf3">=&#160;</tspan><tspan fill="#d2a8ff">game</tspan><tspan fill="#e6edf3">:GetService(</tspan><tspan fill="#a5d6ff">&quot;Players&quot;</tspan><tspan fill="#e6edf3">)</tspan></text></g>
+  <rect x="112" y="181" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;477;477;112;112" keyTimes="0;0.08057;0.12257;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08057;0.08129;0.13114;0.13186;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c3)"><text x="112" y="218" font-size="14.5" textLength="383" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#ff7b72">local</tspan><tspan fill="#e6edf3">&#160;Store&#160;</tspan><tspan fill="#e6edf3">=&#160;</tspan><tspan fill="#e6edf3">require(script.Parent.Profile)</tspan></text></g>
+  <rect x="112" y="206" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;495;495;112;112" keyTimes="0;0.13114;0.17514;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.13114;0.13186;0.18371;0.18443;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c4)"><text x="112" y="255.5" font-size="14.5" textLength="383" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#e6edf3">Players.PlayerAdded:Connect(</tspan><tspan fill="#ff7b72">function</tspan><tspan fill="#e6edf3">(player)</tspan></text></g>
+  <rect x="112" y="244" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;495;495;112;112" keyTimes="0;0.18371;0.22771;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18371;0.18443;0.23629;0.23700;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c5)"><text x="112" y="280.5" font-size="14.5" textLength="391" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#ff7b72">&#160;&#160;&#160;&#160;local</tspan><tspan fill="#e6edf3">&#160;profile&#160;</tspan><tspan fill="#e6edf3">=&#160;Store.load(player.UserId)</tspan></text></g>
+  <rect x="112" y="269" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;503;503;112;112" keyTimes="0;0.23629;0.28129;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.23629;0.23700;0.28986;0.29057;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c6)"><text x="112" y="305.5" font-size="14.5" textLength="409" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#e6edf3">&#160;&#160;&#160;&#160;player:SetAttribute(</tspan><tspan fill="#a5d6ff">&quot;Coins&quot;</tspan><tspan fill="#e6edf3">,&#160;profile.coins)</tspan></text></g>
+  <rect x="112" y="294" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;521;521;112;112" keyTimes="0;0.28986;0.33686;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28986;0.29057;0.34543;0.34614;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c7)"><text x="112" y="330.5" font-size="14.5" textLength="217" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#e6edf3">&#160;&#160;&#160;&#160;profile.sessions&#160;</tspan><tspan fill="#ff7b72">+=&#160;</tspan><tspan fill="#a5d6ff">1</tspan></text></g>
+  <rect x="112" y="319" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;330;330;112;112" keyTimes="0;0.34543;0.37043;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.34543;0.34614;0.37900;0.37971;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c8)"><text x="112" y="355.5" font-size="14.5" textLength="331" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#e6edf3">&#160;&#160;&#160;&#160;Store.save(player.UserId,&#160;profile)</tspan></text></g>
+  <rect x="112" y="344" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;443;443;112;112" keyTimes="0;0.37900;0.41700;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.37900;0.37971;0.42557;0.42629;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#c9)"><text x="112" y="380.5" font-size="14.5" textLength="35" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#e6edf3">end)</tspan></text></g>
+  <rect x="112" y="369" width="8.7" height="14" fill="#ff5252" opacity="0"><animate attributeName="x" values="112;112;147;147;112;112" keyTimes="0;0.42557;0.43414;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.42557;0.42629;0.44271;0.44343;1" dur="14.00s" repeatCount="indefinite"/></rect>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45557;0.45629;.965;.972;1" dur="14.00s" repeatCount="indefinite"/><rect x="112" y="394" width="8.7" height="14" fill="#ff5252"><animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></rect></g>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <rect x="652" y="96" width="484" height="440" rx="10" fill="#0d1017" stroke="#ff5252" stroke-opacity=".22"/>
+  <text x="676" y="116" fill="#8b93a7" font-size="11" letter-spacing="2.6">EXPLORER</text>
+  <text x="676" y="136" fill="#f6f7f9" font-size="12">Workspace</text><text x="676" y="158" fill="#8b93a7" font-size="12">  Baseplate</text><text x="676" y="180" fill="#8b93a7" font-size="12">  SpawnLocation</text><text x="676" y="202" fill="#f6f7f9" font-size="12">ServerScriptService</text><text x="676" y="224" fill="#ff5252" font-size="12">  Economy</text><text x="676" y="246" fill="#8b93a7" font-size="12">  Profile</text><text x="676" y="268" fill="#f6f7f9" font-size="12">ReplicatedStorage</text><text x="676" y="290" fill="#8b93a7" font-size="12">  Remotes</text>
+  <line x1="676" y1="318" x2="1112" y2="318" stroke="#ff5252" stroke-opacity=".18"/>
+<path d="M900,330 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M946,353 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M992,376 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M1038,399 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M854,353 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M900,376 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M946,399 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M992,422 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M808,376 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M854,399 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M900,422 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M946,445 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M762,399 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M808,422 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M854,445 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/><path d="M900,468 l46,23 l-46,23 l-46,-23 Z" fill="#1c2030" stroke="#2c3245" stroke-width="1"/>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.300;0.340;.93;.95;1" dur="14.0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.300;0.335;1" dur="14.0s" repeatCount="indefinite"/>
+      <path d="M900,342 l46,23 l0,34 l-46,-23 Z" fill="#ff5252" opacity=".55"/>
+      <path d="M900,342 l-46,23 l0,34 l46,-23 Z" fill="#ff5252" opacity=".35"/>
+      <path d="M900,319 l46,23 l-46,23 l-46,-23 Z" fill="#ff5252"/>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.390;0.430;.93;.95;1" dur="14.0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.390;0.425;1" dur="14.0s" repeatCount="indefinite"/>
+      <path d="M992,352 l46,23 l0,24 l-46,-23 Z" fill="#ffb454" opacity=".55"/>
+      <path d="M992,352 l-46,23 l0,24 l46,-23 Z" fill="#ffb454" opacity=".35"/>
+      <path d="M992,329 l46,23 l-46,23 l-46,-23 Z" fill="#ffb454"/>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.480;0.520;.93;.95;1" dur="14.0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.480;0.515;1" dur="14.0s" repeatCount="indefinite"/>
+      <path d="M808,332 l46,23 l0,44 l-46,-23 Z" fill="#5ac8fa" opacity=".55"/>
+      <path d="M808,332 l-46,23 l0,44 l46,-23 Z" fill="#5ac8fa" opacity=".35"/>
+      <path d="M808,309 l46,23 l-46,23 l-46,-23 Z" fill="#5ac8fa"/>
+    </g><g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.570;0.610;.93;.95;1" dur="14.0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.570;0.605;1" dur="14.0s" repeatCount="indefinite"/>
+      <path d="M946,417 l46,23 l0,28 l-46,-23 Z" fill="#b388ff" opacity=".55"/>
+      <path d="M946,417 l-46,23 l0,28 l46,-23 Z" fill="#b388ff" opacity=".35"/>
+      <path d="M946,394 l46,23 l-46,23 l-46,-23 Z" fill="#b388ff"/>
+    </g>
+  <text x="894" y="478" text-anchor="middle" fill="#8b93a7" font-size="11.5" letter-spacing="1.6">instancing parts at runtime</text>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><text x="112" y="566" fill="#8b93a7" font-size="12">server authority, data that survives a rejoin, and UI that does not fight the player</text></g>
+<rect width="1200" height="600" fill="url(#scan)"/>
+<rect width="1200" height="600" fill="url(#vignette)"/>
+<rect x="0" y="-80" width="1200" height="80" fill="#ff5252" opacity=".05" filter="url(#soft)">
+  <animate attributeName="y" values="-80;600" dur="7s" repeatCount="indefinite"/>
+</rect>
+</svg>

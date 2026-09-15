@@ -192,7 +192,7 @@ def render(game: dict, frame_count: int, frame_seconds: float, hold_seconds: flo
 <ellipse cx="300" cy="350" rx="380" ry="300" fill="url(#boardGlow)"/>
 
 <g font-family="{MONO}">
-  <text x="64" y="52" fill="{CYAN}" font-size="13" letter-spacing="4">03 &#183; FLAGSHIP &#183; 2048byNiklas</text>
+  <text x="64" y="52" fill="{CYAN}" font-size="13" letter-spacing="4">04 &#183; FLAGSHIP &#183; 2048byNiklas</text>
   <text x="1136" y="52" fill="{DIM}" font-size="12" letter-spacing="2" text-anchor="end">REAL GAME &#183; SEED {game['seed']} &#183; NOT A MOCKUP</text>
   <line x1="64" y1="66" x2="1136" y2="66" stroke="{LINE}" stroke-opacity=".22"/>
 

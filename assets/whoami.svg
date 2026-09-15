@@ -67,7 +67,7 @@
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.229;.232;.352;.362;1" dur="14s" repeatCount="indefinite"/>
     </rect>
 
-    <text x="96" y="266" fill="#c9b6e6" opacity="0" textLength="378" lengthAdjust="spacing">python - algorithms - automation - tooling
+    <text x="96" y="266" fill="#c9b6e6" opacity="0" textLength="270" lengthAdjust="spacing">c - x86_64 asm - luau - python
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.357;.375;.964;.971;1" dur="14s" repeatCount="indefinite"/>
     </text>
 
@@ -79,7 +79,7 @@
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.421;.424;.537;.547;1" dur="14s" repeatCount="indefinite"/>
     </rect>
 
-    <text x="96" y="326" fill="#c9b6e6" opacity="0" textLength="432" lengthAdjust="spacing">making an expectimax ai reach 4096 in pure python
+    <text x="96" y="326" fill="#c9b6e6" opacity="0" textLength="432" lengthAdjust="spacing">building flos, a kernel, and roblox game systems
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.543;.561;.964;.971;1" dur="14s" repeatCount="indefinite"/>
     </text>
 
@@ -115,9 +115,9 @@
     <text x="816" y="252" fill="#6d5a8f" letter-spacing="1.6">BASE</text>
     <text x="1104" y="252" fill="#cbb6e8" text-anchor="end">Regensburg, Germany</text>
     <text x="816" y="282" fill="#6d5a8f" letter-spacing="1.6">FOCUS</text>
-    <text x="1104" y="282" fill="#cbb6e8" text-anchor="end">algorithms &amp; game AI</text>
+    <text x="1104" y="282" fill="#cbb6e8" text-anchor="end">operating systems &amp; games</text>
     <text x="816" y="312" fill="#6d5a8f" letter-spacing="1.6">RUNTIME</text>
-    <text x="1104" y="312" fill="#cbb6e8" text-anchor="end">python 3, stdlib first</text>
+    <text x="1104" y="312" fill="#cbb6e8" text-anchor="end">arch, qemu, roblox studio</text>
     <text x="816" y="342" fill="#6d5a8f" letter-spacing="1.6">RULE</text>
     <text x="1104" y="342" fill="#cbb6e8" text-anchor="end">benchmark, then believe</text>
   </g>

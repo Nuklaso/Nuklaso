@@ -16,7 +16,7 @@
 <rect width="1200" height="340" fill="#07060b"/>
 <rect width="1200" height="340" fill="url(#mesh)"/>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-  <text x="64" y="52" fill="#22d3ee" font-size="13" letter-spacing="4">04 · LATEST SIGNALS</text>
+  <text x="64" y="52" fill="#22d3ee" font-size="13" letter-spacing="4">06 · LATEST SIGNALS</text>
   <text x="1136" y="52" fill="#6d5a8f" font-size="12" letter-spacing="2" text-anchor="end">PUSHED MOST RECENTLY</text>
   <line x1="64" y1="66" x2="1136" y2="66" stroke="#a855f7" stroke-opacity=".22"/>
   <g>

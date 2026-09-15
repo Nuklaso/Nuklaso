@@ -282,7 +282,7 @@ def render_telemetry(user, repos, days, languages, longest) -> str:
         f'  <circle cx="1136" cy="708" r="4" fill="{CYAN}">'
         f'<animate attributeName="opacity" values="1;.15;1" dur="1.8s" repeatCount="indefinite"/></circle>',
     ]
-    return shell(1200, 742, "05 · TELEMETRY", "SELF-RENDERED · NO THIRD PARTY CARDS",
+    return shell(1200, 742, "07 · TELEMETRY", "SELF-RENDERED · NO THIRD PARTY CARDS",
                  "\n".join(body), "telemetry")
 
 
@@ -312,7 +312,7 @@ def render_repos(repos) -> str:
     <text x="{x + 186}" y="276" fill="{DIM}" font-size="12">&#9733; {repo.get('stargazers_count', 0)}</text>
     <text x="{x + 310}" y="276" text-anchor="end" fill="{DIM}" font-size="11">{pushed}</text>
   </g>""")
-    return shell(1200, 340, "04 · LATEST SIGNALS", "PUSHED MOST RECENTLY",
+    return shell(1200, 340, "06 · LATEST SIGNALS", "PUSHED MOST RECENTLY",
                  "\n".join(out), "repositories")
 
 
