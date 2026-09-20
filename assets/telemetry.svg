@@ -473,7 +473,7 @@
   <rect x="1056" y="694" width="14" height="14" rx="3" fill="#a855f7"/>
   <rect x="1074" y="694" width="14" height="14" rx="3" fill="#e879f9"/>
   <text x="1096" y="706" fill="#6d5a8f" font-size="10.5" letter-spacing="1.4">loud</text>
-  <text x="64" y="712" fill="#6d5a8f" font-size="11" letter-spacing="1.6">rendered from the github api by .github/scripts/gen_profile_svgs.py &#183; last sync 2026-09-20 11:34 UTC</text>
+  <text x="64" y="712" fill="#6d5a8f" font-size="11" letter-spacing="1.6">rendered from the github api by .github/scripts/gen_profile_svgs.py &#183; last sync 2026-09-20 16:14 UTC</text>
   <circle cx="1136" cy="708" r="4" fill="#22d3ee"><animate attributeName="opacity" values="1;.15;1" dur="1.8s" repeatCount="indefinite"/></circle>
 </g>
 </svg>
